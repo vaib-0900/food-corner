@@ -26,7 +26,7 @@
                 <li class="nav-item"><a class="nav-link" href="specials.php">Specials</a></li>
                 <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
                 <li class="nav-item"><a class="nav-link" href="reviews.php">Reviews</a></li>
-                <li class="nav-item"><a class="nav-link" href="order.php">Order</a></li>
+                <li class="nav-item"><a class="nav-link" href="faq.php">F.A.Q</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
             </ul>
         </div>
