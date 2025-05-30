@@ -68,7 +68,7 @@
 <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container">
             <a class="navbar-brand" href="index.php">
                 <img src="images/food-corner2.png" alt="FoodCorner Logo" class="d-inline-block align-top mx-1" style="height:130px; width: 370px;">
