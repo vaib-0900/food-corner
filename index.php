@@ -447,10 +447,6 @@ include "header.php";
     </div>
 </section>
 
-<?php
-include "footer.php";
-?>
-
 <style>
     .hero-section {
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/banner.png');
@@ -475,3 +471,6 @@ include "footer.php";
         transform: translateY(-5px);
     }
 </style>
+<?php
+include "footer.php";
+?>

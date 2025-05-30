@@ -74,7 +74,6 @@
         </button>
         
         <div class="collapse navbar-collapse" id="navbarNav">
-<<<<<<< HEAD
             <ul class="navbar-nav ms-3">
                 <li class="nav-item"><a class="nav-link active" href="index.php"><i class="fas fa-home me-1"></i> Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="about.php"><i class="fas fa-info-circle me-1"></i> About</a></li>
@@ -94,18 +93,6 @@
                 <li class="nav-item"><a class="nav-link" href="gallery.php"><i class="fas fa-images me-1"></i> Gallery</a></li>
                 <li class="nav-item"><a class="nav-link" href="reviews.php"><i class="fas fa-star me-1"></i> Reviews</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.php"><i class="fas fa-envelope me-1"></i> Contact</a></li>
-=======
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="menu.php">Menu</a></li>
-                <li class="nav-item"><a class="nav-link" href="chefs.php">Chefs</a></li>
-                <li class="nav-item"><a class="nav-link" href="specials.php">Specials</a></li>
-                <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
-                <li class="nav-item"><a class="nav-link" href="reviews.php">Reviews</a></li>
-                <li class="nav-item"><a class="nav-link" href="faq.php">F.A.Q</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
->>>>>>> ddaa19b2cefd8d247525da2e469b5079b8b3df2a
             </ul>
            
         </div>
