@@ -100,7 +100,7 @@
                     <li class="nav-item"><a class="nav-link" href="gallery.php"><i class="fas fa-images me-1"></i> Gallery</a></li>
                     <li class="nav-item"><a class="nav-link" href="reviews.php"><i class="fas fa-star me-1"></i> Reviews</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.php"><i class="fas fa-envelope me-1"></i> Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="faq.php"><i class="fas fa-envelope me-1"></i>FAQ'S</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.php"><i class="fas fa-question-circle me-1"></i>FAQ'S</a></li>
 
                 </ul>
 
