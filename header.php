@@ -82,10 +82,11 @@
                 <ul class="navbar-nav ms-3">
                     <li class="nav-item"><a class="nav-link active" href="index.php"><i class="fas fa-home me-1"></i> Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.php"><i class="fas fa-info-circle me-1"></i> About</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button" data-bs-toggle="dropdown">
+                    <li class="nav-item dropdown mt-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fas fa-utensils me-1"></i> Menu
                         </a>
+
                         <ul class="dropdown-menu dropdown-menu-dark">
                             <li><a class="dropdown-item" href="menu.php#starters"><i class="fas fa-leaf me-2"></i>Starters</a></li>
                             <li><a class="dropdown-item" href="menu.php#mains"><i class="fas fa-drumstick-bite me-2"></i>Main Courses</a></li>
@@ -101,6 +102,8 @@
                     <li class="nav-item"><a class="nav-link" href="reviews.php"><i class="fas fa-star me-1"></i> Reviews</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.php"><i class="fas fa-envelope me-1"></i> Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="faq.php"><i class="fas fa-question-circle me-1"></i>FAQ'S</a></li>
+                    <li class="nav-item"><a class="nav-link" href="promotion.php"><i class="fas fa-tags me-1"></i> Promotions</a></li>
+
 
                 </ul>
 
