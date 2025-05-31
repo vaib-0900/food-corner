@@ -277,72 +277,65 @@
   </section>
 
   <!-- App Section -->
-<section id="app" class="app-promo-section py-7 position-relative overflow-hidden">
-  <!-- Animated Background Elements -->
-  <div class="position-absolute top-0 start-0 w-100 h-100">
-    <div class="position-absolute rounded-circle" style="width: 400px; height: 400px; background: rgba(255,255,255,0.05); top: -100px; left: -100px;"></div>
-    <div class="position-absolute rounded-circle" style="width: 600px; height: 600px; background: rgba(255,255,255,0.03); bottom: -300px; right: -200px;"></div>
-  </div>
-
-  <!-- Floating Food Icons -->
-  <div class="floating-elements">
-    <i class="fas fa-hamburger position-absolute text-white-10" style="font-size: 5rem; top: 20%; left: 5%; animation: float 6s ease-in-out infinite;"></i>
-    <i class="fas fa-pizza-slice position-absolute text-white-10" style="font-size: 4rem; bottom: 30%; right: 10%; animation: float 8s ease-in-out infinite 2s;"></i>
-    <i class="fas fa-ice-cream position-absolute text-white-10" style="font-size: 6rem; top: 40%; right: 15%; animation: float 7s ease-in-out infinite 1s;"></i>
-  </div>
-
-  <div class="container position-relative z-2">
-    <div class="row align-items-center g-5">
-      <!-- App Mockup - Left Side -->
-      <div class="col-lg-6">
-        <div class="app-mockup-wrapper position-relative" style="max-width: 320px; margin: 0 auto;">
-          <!-- iPhone Frame -->
-          <div class="device-frame position-relative" style="border-radius: 40px; padding: 12px; background: #0f0f12; box-shadow: 0 30px 60px rgba(0,0,0,0.3), inset 0 0 0 2px rgba(255,255,255,0.1);">
-            <!-- Screen Content -->
-            <div class="app-screen overflow-hidden position-relative" style="border-radius: 28px; height: 620px; background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);">
-              <!-- Dynamic App Slideshow -->
-              <div class="app-slideshow h-100">
-                <!-- Slide 1 - Featured Offer -->
-                <div class="app-slide h-100 position-relative" style="padding: 20px;">
-                  <div class="d-flex justify-content-between align-items-center mb-4">
-                    <span class="text-white fw-bold">Food Corner</span>
-                    <i class="fas fa-search text-white"></i>
-                  </div>
-                  
-                  <div class="text-center mb-5">
-                    <div class="mx-auto mb-3" style="width: 80px; height: 80px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-                      <i class="fas fa-fire text-white" style="font-size: 2rem;"></i>
+<section id="app" class="app-section py-5 text-white">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Mobile Device Frame (Left Side) -->
+      <div class="col-lg-6 mb-5 mb-lg-0 order-lg-1 order-2 text-center">
+        <div class="device-frame mx-auto position-relative floating" style="max-width: 300px;">
+          <!-- Device Outline -->
+          <div class="position-relative" style="border: 12px solid #222; border-radius: 40px; height: 600px; width: 300px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.3);">
+            <!-- Device Notch -->
+            <div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 50%; height: 25px; background: #222; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; z-index: 10;"></div>
+            <!-- App Screen Content -->
+            <div class="h-100" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+              <!-- App Header -->
+              <div class="d-flex justify-content-between align-items-center p-3" style="background: rgba(0,0,0,0.2);">
+                <span class="text-white fw-bold">Food Corner</span>
+                <i class="fas fa-search text-white"></i>
+              </div>
+              
+              <!-- Featured Promotion -->
+              <div class="text-center p-4">
+                <div class="bg-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                  <i class="fas fa-utensils text-primary fa-2x"></i>
+                </div>
+                <h5 class="text-white mb-1">Special Offer!</h5>
+                <p class="text-white-50 small mb-3">Today only</p>
+                <div class="bg-white text-dark rounded-pill py-2 px-3 d-inline-block">
+                  <span class="fw-bold">50% OFF</span> All Burgers
+                </div>
+              </div>
+              
+              <!-- Food Items -->
+              <div class="px-3">
+                <div class="bg-white rounded-3 p-3 mb-3 shadow-sm">
+                  <div class="d-flex">
+                    <div class="flex-shrink-0" style="width: 60px; height: 60px; background: #eee; border-radius: 10px; overflow: hidden;">
+                      <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
-                    <h5 class="text-white mb-2">Today's Special</h5>
-                    <div class="bg-white text-dark rounded-pill py-2 px-3 d-inline-block fw-bold">
-                      60% OFF All Burgers
-                    </div>
-                  </div>
-                  
-                  <div class="food-item-card bg-white rounded-3 p-3 mb-3 shadow">
-                    <div class="d-flex">
-                      <div class="flex-shrink-0 food-item-img" style="background-image: url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80');"></div>
-                      <div class="flex-grow-1 ms-3">
-                        <h6 class="mb-0">Mega Burger</h6>
-                        <small class="text-muted">Double patty with cheese</small>
-                        <div class="d-flex justify-content-between mt-2">
-                          <span class="text-danger fw-bold">$7.99 <small class="text-decoration-line-through text-muted">$19.99</small></span>
-                          <button class="btn btn-sm btn-danger rounded-circle" style="width: 30px; height: 30px; padding: 0;">+</button>
-                        </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h6 class="mb-0 text-dark">Mega Burger</h6>
+                      <small class="text-muted">Double patty with cheese</small>
+                      <div class="d-flex justify-content-between mt-1">
+                        <span class="text-dark fw-bold">$9.99</span>
+                        <button class="btn btn-sm btn-primary py-0 px-2">+</button>
                       </div>
                     </div>
                   </div>
-                  
-                  <div class="food-item-card bg-white rounded-3 p-3 shadow">
-                    <div class="d-flex">
-                      <div class="flex-shrink-0 food-item-img" style="background-image: url('https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80');"></div>
-                      <div class="flex-grow-1 ms-3">
-                        <h6 class="mb-0">Pepperoni Pizza</h6>
-                        <small class="text-muted">12" with extra cheese</small>
-                        <div class="d-flex justify-content-between mt-2">
-                          <span class="text-dark fw-bold">$12.99</span>
-                          <button class="btn btn-sm btn-primary rounded-circle" style="width: 30px; height: 30px; padding: 0;">+</button>
-                        </div>
+                </div>
+                
+                <div class="bg-white rounded-3 p-3 shadow-sm">
+                  <div class="d-flex">
+                    <div class="flex-shrink-0" style="width: 60px; height: 60px; background: #eee; border-radius: 10px; overflow: hidden;">
+                      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h6 class="mb-0 text-dark">Pepperoni Pizza</h6>
+                      <small class="text-muted">12" with extra cheese</small>
+                      <div class="d-flex justify-content-between mt-1">
+                        <span class="text-dark fw-bold">$12.99</span>
+                        <button class="btn btn-sm btn-primary py-0 px-2">+</button>
                       </div>
                     </div>
                   </div>
@@ -350,7 +343,7 @@
               </div>
               
               <!-- Bottom Navigation -->
-              <div class="position-absolute bottom-0 start-0 end-0 d-flex justify-content-around p-3" style="background: rgba(0,0,0,0.2);">
+              <div class="position-absolute bottom-0 start-0 end-0 d-flex justify-content-around p-3" style="background: rgba(0,0,0,0.1);">
                 <i class="fas fa-home text-white"></i>
                 <i class="fas fa-search text-white-50"></i>
                 <i class="fas fa-shopping-cart text-white-50"></i>
@@ -358,105 +351,81 @@
               </div>
             </div>
           </div>
-          
-          <!-- Glow Effect -->
-          <div class="position-absolute top-50 start-50 translate-middle" style="width: 150%; height: 150%; background: radial-gradient(circle, rgba(106,17,203,0.3) 0%, rgba(37,117,252,0.1) 50%, transparent 70%); z-index: -1;"></div>
         </div>
       </div>
       
-      <!-- Content - Right Side -->
-      <div class="col-lg-6">
-        <div class="ps-lg-5">
-          <div class="badge bg-white text-dark mb-3 py-2 px-3 mt-3 rounded-pill d-inline-flex align-items-center">
-            <i class="fas fa-star text-warning me-2"></i>
-            <span>4.9 Rating (10K+ Reviews)</span>
-          </div>
-          
-          <h2 class="display-4 fw-bold text-white mb-4">Experience Food <span class="text-warning">Like Never Before</span></h2>
-          
-          <p class="lead text-white mb-5">Our award-winning app makes ordering food faster, easier, and more rewarding than ever!</p>
-          
-          <!-- Features Grid -->
-          <div class="row g-4 mb-5">
-            <div class="col-md-6">
-              <div class="feature-card bg-white bg-opacity-10 p-4 rounded-4 h-100 border border-white border-opacity-10">
-                <div class="icon-wrapper bg-primary bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 50px; height: 50px;">
-                  <i class="fas fa-bolt text-white"></i>
-                </div>
-                <h5 class="text-white">Lightning Fast</h5>
-                <p class="text-white-50 mb-0">Order food in under 30 seconds with our optimized flow</p>
+      <!-- App Content (Right Side) -->
+      <div class="col-lg-6 order-lg-2 order-1 mb-5 mb-lg-0">
+        <h2 class="display-5 fw-bold mb-4">Download Our <span class="text-warning">Mobile App</span></h2>
+        <p class="lead mb-4">Get exclusive app-only deals and order food with just a few taps!</p>
+        
+        <div class="row g-4 mb-4">
+          <div class="col-md-6">
+            <div class="d-flex align-items-center bg-white bg-opacity-10 p-3 rounded-3 h-100">
+              <div class="bg-white text-primary rounded-circle p-2 me-3 flex-shrink-0">
+                <i class="fas fa-bolt fa-lg"></i>
               </div>
-            </div>
-            
-            <div class="col-md-6">
-              <div class="feature-card bg-white bg-opacity-10 p-4 rounded-4 h-100 border border-white border-opacity-10">
-                <div class="icon-wrapper bg-primary bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 50px; height: 50px;">
-                  <i class="fas fa-gem text-white"></i>
-                </div>
-                <h5 class="text-white">VIP Rewards</h5>
-                <p class="text-white-50 mb-0">Exclusive deals for our regular customers</p>
-              </div>
-            </div>
-            
-            <div class="col-md-6">
-              <div class="feature-card bg-white bg-opacity-10 p-4 rounded-4 h-100 border border-white border-opacity-10">
-                <div class="icon-wrapper bg-primary bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 50px; height: 50px;">
-                  <i class="fas fa-map-marker-alt text-white"></i>
-                </div>
-                <h5 class="text-white">Live Tracking</h5>
-                <p class="text-white-50 mb-0">Real-time delivery tracking with ETA updates</p>
-              </div>
-            </div>
-            
-            <div class="col-md-6">
-              <div class="feature-card bg-white bg-opacity-10 p-4 rounded-4 h-100 border border-white border-opacity-10">
-                <div class="icon-wrapper bg-primary bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 50px; height: 50px;">
-                  <i class="fas fa-wallet text-white"></i>
-                </div>
-                <h5 class="text-white">Easy Payments</h5>
-                <p class="text-white-50 mb-0">Multiple secure payment options</p>
+              <div>
+                <h6 class="mb-1">Lightning Fast</h6>
+                <p class="small mb-0 text-white-50">Order food in under 30 seconds</p>
               </div>
             </div>
           </div>
           
-          <!-- Download Buttons -->
-          <div class="d-flex flex-wrap gap-3">
-            <a href="#" class="btn-download btn-google-play shadow-lg">
-              <div class="btn-icon">
-                <i class="fab fa-google-play"></i>
+          <div class="col-md-6">
+            <div class="d-flex align-items-center bg-white bg-opacity-10 p-3 rounded-3 h-100">
+              <div class="bg-white text-primary rounded-circle p-2 me-3 flex-shrink-0">
+                <i class="fas fa-gift fa-lg"></i>
               </div>
-              <div class="btn-text">
-                <span>Get it on</span>
-                <strong>Google Play</strong>
+              <div>
+                <h6 class="mb-1">Exclusive Deals</h6>
+                <p class="small mb-0 text-white-50">App-only discounts & offers</p>
               </div>
-            </a>
-            
-            <a href="#" class="btn-download btn-app-store shadow-lg">
-              <div class="btn-icon">
-                <i class="fab fa-apple"></i>
-              </div>
-              <div class="btn-text">
-                <span>Download on the</span>
-                <strong>App Store</strong>
-              </div>
-            </a>
+            </div>
           </div>
           
-          <!-- Trust Badges -->
-          <div class="d-flex flex-wrap gap-3 mt-4 mb-3">
-            <div class="trust-badge">
-              <i class="fas fa-shield-alt text-success me-2"></i>
-              <span>100% Secure</span>
-            </div>
-            <div class="trust-badge">
-              <i class="fas fa-sync-alt text-info me-2"></i>
-              <span>Easy Refunds</span>
-            </div>
-            <div class="trust-badge">
-              <i class="fas fa-headset text-primary me-2"></i>
-              <span>24/7 Support</span>
+          <div class="col-md-6">
+            <div class="d-flex align-items-center bg-white bg-opacity-10 p-3 rounded-3 h-100">
+              <div class="bg-white text-primary rounded-circle p-2 me-3 flex-shrink-0">
+                <i class="fas fa-coins fa-lg"></i>
+              </div>
+              <div>
+                <h6 class="mb-1">Loyalty Rewards</h6>
+                <p class="small mb-0 text-white-50">Earn points with every order</p>
+              </div>
             </div>
           </div>
+          
+          <div class="col-md-6">
+            <div class="d-flex align-items-center bg-white bg-opacity-10 p-3 rounded-3 h-100">
+              <div class="bg-white text-primary rounded-circle p-2 me-3 flex-shrink-0">
+                <i class="fas fa-bell fa-lg"></i>
+              </div>
+              <div>
+                <h6 class="mb-1">Real-Time Alerts</h6>
+                <p class="small mb-0 text-white-50">Order status notifications</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="d-flex flex-wrap gap-3">
+          <a href="https://play.google.com/store/apps/details?id=com.foodcorner.app" 
+             class="btn btn-light btn-lg px-4 py-3 d-flex align-items-center">
+            <i class="fab fa-google-play fa-2x me-2"></i>
+            <div class="text-start">
+              <small class="d-block">Get it on</small>
+              <span class="fw-bold">Google Play</span>
+            </div>
+          </a>
+          
+          <a href="#" class="btn btn-outline-light btn-lg px-4 py-3 d-flex align-items-center">
+            <i class="fab fa-apple fa-2x me-2"></i>
+            <div class="text-start">
+              <small class="d-block">Download on the</small>
+              <span class="fw-bold">App Store</span>
+            </div>
+          </a>
         </div>
       </div>
     </div>
