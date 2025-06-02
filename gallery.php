@@ -116,7 +116,7 @@ include 'header.php';
 
     <section class="hero-section bg-dark text-white d-flex align-items-center">
         <div class="container text-center py-5">
-            <h1 class="display-3 fw-bold mb-3">Chicken <span class="text-warning">Specialties</span></h1>
+            <h1 class="display-3 fw-bold mb-3">Our <span class="text-warning">Gallery</span></h1>
             <p class="lead mb-4">Premium quality chicken dishes prepared with authentic recipes</p>
         </div>
     </section>
