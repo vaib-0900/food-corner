@@ -14,7 +14,7 @@ include "header.php";
 </section>
 
 <!-- About Section with Modern Layout -->
-<section class="py-5">
+<section class="py-5">  
     <div class="container">
         <div class="row align-items-center g-5">
             <div class="col-lg-6">
@@ -346,83 +346,6 @@ include "header.php";
     }
 </style>
 
-<!-- Testimonials with Modern Layout -->
-<section class="py-5 bg-dark text-white">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="fw-bold">Diner Experiences</h2>
-            <p class="text-muted">Hear what our guests say about us</p>
-        </div>
-
-        <div class="row g-4">
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 bg-dark border-light">
-                    <div class="card-body">
-                        <div class="d-flex mb-3">
-                            <img src="images/reviewer1.jpg" class="rounded-circle me-3" width="50" height="50" alt="Sarah K.">
-                            <div>
-                                <h6 class="mb-0 fw-bold">Sarah K.</h6>
-                                <div class="text-warning small">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">"The tasting menu was an incredible journey of flavors. Every course was perfectly timed and explained by our knowledgeable server."</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 bg-dark border-light">
-                    <div class="card-body">
-                        <div class="d-flex mb-3">
-                            <img src="images/reviewer2.jpg" class="rounded-circle me-3" width="50" height="50" alt="James M.">
-                            <div>
-                                <h6 class="mb-0 fw-bold">James M.</h6>
-                                <div class="text-warning small">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">"I've dined at FoodCorner three times now, and each experience has been exceptional. The wine pairings are particularly impressive."</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 bg-dark border-light">
-                    <div class="card-body">
-                        <div class="d-flex mb-3">
-                            <img src="images/reviewer3.jpg" class="rounded-circle me-3" width="50" height="50" alt="Priya T.">
-                            <div>
-                                <h6 class="mb-0 fw-bold">Priya T.</h6>
-                                <div class="text-warning small">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">"As a vegetarian, I'm always impressed by the creative plant-based options. The roasted cauliflower steak is divine!"</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="text-center mt-4">
-            <a href="reviews.php" class="btn btn-outline-light px-4">Read More Reviews</a>
-            <a href="reservation.php" class="btn btn-warning px-4 ms-2">Reserve Your Table</a>
-        </div>
-    </div>
-</section>
 
 <!-- Newsletter Section -->
 <section class="py-5 bg-warning bg-opacity-10">
