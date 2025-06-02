@@ -166,6 +166,29 @@
                 </div>
             </div>
 
+            <!-- Terms and Conditions Section -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7">
+                        <i class="fas fa-file-contract faq-icon"></i> Terms and Conditions
+                    </button>
+                </h2>
+                <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        <h5>FoodCorner Terms of Service</h5>
+                        <ol>
+                            <li><strong>Ordering:</strong> All orders are subject to availability and confirmation.</li>
+                            <li><strong>Pricing:</strong> Prices are subject to change without notice.</li>
+                            <li><strong>Payment:</strong> We accept all major credit cards and digital payment methods.</li>
+                            <li><strong>Delivery:</strong> Delivery times are estimates and not guaranteed.</li>
+                            <li><strong>Refunds:</strong> Refund requests must be made within 24 hours of order completion.</li>
+                            <li><strong>Privacy:</strong> We respect your privacy and handle data according to our Privacy Policy.</li>
+                        </ol>
+                        <p>For the complete Terms and Conditions, please visit our <a href="terms-and-conditions.html">dedicated page</a>.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
         
         <!-- Help Section -->
