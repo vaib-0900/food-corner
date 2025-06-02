@@ -13,10 +13,14 @@
 
     <style>
         .faq-hero {
-          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/banner.png');
+           background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/banner.png');
             background-size: cover;
             background-position: center;
             min-height: 60vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-align: center;
         }
 
         .faq-hero h1 span {
