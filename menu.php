@@ -196,14 +196,14 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
                             <span class="menu-badge">Chef's Special</span>
-                            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="menu-img" alt="Paneer Tikka">
+                            <img src="image//food corner.jpg" style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Paneer Tikka</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
                                     <span class="veg"></span>
                                     <span class="menu-price">₹249</span>
                                 </div>
-                                <p class="text-muted">Cubes of paneer marinated in spices and grilled in tandoor</p>
+                                <p class="text-muted">Grilled cottage cheese with spices and bell peppers.</p>
                                 <div class="menu-rating">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -219,14 +219,14 @@
                     <!-- Item 2 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="menu-img" alt="Butter Chicken">
+                            <img src="image//butter chikan.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Butter Chicken</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
                                     <span class="nonveg"></span>
                                     <span class="menu-price">₹349</span>
                                 </div>
-                                <p class="text-muted">Tender chicken in rich makhani gravy with butter</p>
+                                <p class="text-muted">Tender chicken in a creamy tomato sauce, served with naan.</p>
                                 <div class="menu-rating">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -242,14 +242,14 @@
                     <!-- Item 3 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="menu-img" alt="Dal Makhani">
+                            <img src="image//Dal Makhani.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Dal Makhani</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
                                     <span class="veg"></span>
                                     <span class="menu-price">₹199</span>
                                 </div>
-                                <p class="text-muted">Creamy black lentils slow-cooked with butter and spices</p>
+                                <p class="text-muted">Creamy black lentils slow-cooked with butter and spices.</p>
                                 <div class="menu-rating">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -271,7 +271,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
                             <span class="menu-badge">Bestseller</span>
-                            <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="menu-img" alt="Paneer Tikka">
+                            <img src="image//food corner.jpg" style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Paneer Tikka</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -294,7 +294,7 @@
                     <!-- Starter 2 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="menu-img" alt="Chicken 65">
+                            <img src="image//65.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Chicken 65</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -345,7 +345,7 @@
                     <!-- Main Course 1 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="menu-img" alt="Butter Chicken">
+                            <img src="image//butter chikan.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Butter Chicken</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -369,7 +369,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
                             <span class="menu-badge">Chef's Special</span>
-                            <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="menu-img" alt="Dal Makhani">
+                            <img src="image//Dal Makhani.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Dal Makhani</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -392,7 +392,7 @@
                     <!-- Main Course 3 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="menu-img" alt="Palak Paneer">
+                            <img src="image//palak.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Palak Paneer</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -420,7 +420,7 @@
                     <!-- Dessert 1 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="menu-img" alt="Gulab Jamun">
+                            <img src="image//gulab jamun.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Gulab Jamun</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -443,7 +443,7 @@
                     <!-- Dessert 2 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="https://images.unsplash.com/photo-1603532648955-039310d9ed75?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="menu-img" alt="Rasmalai">
+                            <img src="image//Rasmalai.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Rasmalai</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -467,7 +467,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
                             <span class="menu-badge">Seasonal</span>
-                            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="menu-img" alt="Gajar Ka Halwa">
+                            <img src="image//Gajar Ka Halwa.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Gajar Ka Halwa</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -496,7 +496,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
                             <span class="menu-badge">New</span>
-                            <img src="https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="menu-img" alt="Mango Lassi">
+                            <img src="image//Mango Lassi.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Mango Lassi</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -519,7 +519,7 @@
                     <!-- Beverage 2 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="menu-img" alt="Masala Chai">
+                            <img src="image//masala Chai.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Masala Chai</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -542,7 +542,7 @@
                     <!-- Beverage 3 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="https://images.unsplash.com/photo-1600271886742-f049cd5bba08?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="menu-img" alt="Nimbu Pani">
+                            <img src="image//Nimbu Pani.jpg"style=" width: 490px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Nimbu Pani</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
