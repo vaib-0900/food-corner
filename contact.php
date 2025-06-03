@@ -27,12 +27,13 @@ include "header.php";
             </div>
             <!-- Google Map -->
             <div class="col-lg-6">
-                 <div class="col-lg-6">
-                <div class="ratio ratio-16x9 rounded-3 overflow-hidden shadow">
+                <div class="h-100 rounded shadow overflow-hidden">
+                    
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.264415847686!2d72.82821431490093!3d19.05598868710038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8df6f3a45d9%3A0x7f1a8326f2a5a0a5!2s123%20Gourmet%20St%2C%20Food%20District%2C%20Mumbai%2C%20Maharashtra%20400001!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" 
-                            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
-            </div>
             </div>
         </div>
     </div>
