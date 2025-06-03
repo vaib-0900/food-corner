@@ -1,5 +1,9 @@
+<?php
+include "header.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,142 +15,98 @@
   <!-- Animate.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <style>
-    :root {
-      --primary: #ff6b6b;
-      --secondary: #ffa502;
-      --dark: #2f3542;
-      --light: #f1f2f6;
-    }
-    
-    body {
-      font-family: 'Poppins', sans-serif;
-      overflow-x: hidden;
-    }
-    
-    /* Custom Navbar */
-    .navbar {
-      background: rgba(47, 53, 66, 0.9) !important;
-      backdrop-filter: blur(10px);
-    }
-    
-    .navbar-brand {
-      font-weight: 700;
-      font-size: 1.8rem;
-    }
-    
-    .nav-link {
-      font-weight: 500;
-      position: relative;
-    }
-    
-    .nav-link::after {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 3px;
-      bottom: 0;
-      left: 0;
-      background: var(--primary);
-      transition: width 0.3s;
-    }
-    
-    .nav-link:hover::after {
-      width: 100%;
-    }
-    
     /* Hero Section */
     .hero {
-      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-                  url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/banner.png');
       background-size: cover;
       background-position: center;
       min-height: 80vh;
     }
-    
+
     /* Promotion Cards */
     .promo-card {
       border: none;
       border-radius: 15px;
       overflow: hidden;
       transition: all 0.4s;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     }
-    
+
     .promo-card:hover {
       transform: translateY(-10px);
-      box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     }
-    
+
     .promo-card .card-img-top {
       height: 200px;
       object-fit: cover;
     }
-    
+
     .promo-card .badge {
       position: absolute;
       top: 10px;
       right: 10px;
       font-size: 1rem;
     }
-    
+
     /* App Section */
     .app-section {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       position: relative;
       overflow: hidden;
     }
-    
+
     .app-section::before {
       content: '';
       position: absolute;
       width: 300px;
       height: 300px;
       border-radius: 50%;
-      background: rgba(255,255,255,0.1);
+      background: rgba(255, 255, 255, 0.1);
       top: -50px;
       right: -50px;
     }
-    
+
     .app-section::after {
       content: '';
       position: absolute;
       width: 200px;
       height: 200px;
       border-radius: 50%;
-      background: rgba(255,255,255,0.1);
+      background: rgba(255, 255, 255, 0.1);
       bottom: -50px;
       left: -50px;
     }
-    
+
     .app-phone {
       transform: perspective(1000px) rotateY(-15deg);
-      filter: drop-shadow(0 20px 30px rgba(0,0,0,0.3));
+      filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.3));
       transition: all 0.5s;
     }
-    
+
     .app-phone:hover {
       transform: perspective(1000px) rotateY(0deg);
     }
-    
+
     /* Video Section */
     .video-wrapper {
       border-radius: 20px;
       overflow: hidden;
-      box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
       transform: perspective(1000px) rotateX(5deg);
       transition: all 0.5s;
     }
-    
+
     .video-wrapper:hover {
       transform: perspective(1000px) rotateX(0deg);
     }
-    
+
     /* Footer */
     .footer {
       background: var(--dark);
       position: relative;
     }
-    
+
     .footer::before {
       content: '';
       position: absolute;
@@ -156,56 +116,46 @@
       height: 10px;
       background: linear-gradient(to right, var(--primary), var(--secondary));
     }
-    
+
     .social-icon {
       width: 50px;
       height: 50px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      background: rgba(255,255,255,0.1);
+      background: rgba(255, 255, 255, 0.1);
       border-radius: 50%;
       transition: all 0.3s;
     }
-    
+
     .social-icon:hover {
       background: var(--primary);
       transform: translateY(-5px);
     }
-    
+
     /* Floating Elements */
     .floating {
       animation: floating 3s ease-in-out infinite;
     }
-    
+
     @keyframes floating {
-      0% { transform: translateY(0px); }
-      50% { transform: translateY(-15px); }
-      100% { transform: translateY(0px); }
+      0% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(-15px);
+      }
+
+      100% {
+        transform: translateY(0px);
+      }
     }
   </style>
 </head>
+
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <i class="fas fa-utensils me-2"></i>Food Corner
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#promotions">Promotions</a></li>
-          <li class="nav-item"><a class="nav-link" href="#app">Mobile App</a></li>
-          <li class="nav-item"><a class="nav-link" href="#video">Our Hotel</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+
 
   <!-- Hero Section -->
   <section id="home" class="hero d-flex align-items-center text-white">
@@ -226,13 +176,15 @@
         <h2 class="display-5 fw-bold">🔥 Hot <span class="text-danger">Promotions</span></h2>
         <p class="text-muted">Limited time offers - grab them before they're gone!</p>
       </div>
-      
+
       <div class="row g-4">
         <!-- Promotion 1 -->
         <div class="col-md-4">
           <div class="promo-card card h-100 animate__animated animate__fadeInUp">
             <span class="badge bg-danger">50% OFF</span>
-            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Burger Deal">
+            <img
+              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+              class="card-img-top" alt="Burger Deal">
             <div class="card-body">
               <h5 class="card-title">Mega Burger Monday</h5>
               <p class="card-text">Buy one giant burger, get one free! Every Monday only.</p>
@@ -242,33 +194,37 @@
             </div>
           </div>
         </div>
-        
+
         <!-- Promotion 2 -->
         <div class="col-md-4">
           <div class="promo-card card h-100 animate__animated animate__fadeInUp animate__delay-1s">
             <span class="badge bg-success">Family Deal</span>
-            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Pizza Deal">
+            <img
+              src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+              class="card-img-top" alt="Pizza Deal">
             <div class="card-body">
               <h5 class="card-title">Family Pizza Fest</h5>
-              <p class="card-text">Large pizza + 4 drinks for just $19.99. Weekend special!</p>
+              <p class="card-text">Large pizza + 4 drinks for just ₹75. Weekend special!</p>
               <div class="d-flex justify-content-between align-items-center">
                 <small class="text-muted"><i class="far fa-clock me-1"></i>Weekends only</small>
               </div>
             </div>
           </div>
         </div>
-        
+
         <!-- Promotion 3 -->
         <div class="col-md-4">
           <div class="promo-card card h-100 animate__animated animate__fadeInUp animate__delay-2s">
             <span class="badge bg-warning text-dark">Early Bird</span>
-            <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Breakfast Deal">
+            <img
+              src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+              class="card-img-top" alt="Breakfast Deal">
             <div class="card-body">
               <h5 class="card-title">Early Bird Breakfast</h5>
               <p class="card-text">50% off all breakfast items from 7AM-9AM.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <small class="text-muted"><i class="far fa-clock me-1"></i>Daily offer</small>
-                  </div>
+              </div>
             </div>
           </div>
         </div>
@@ -277,276 +233,295 @@
   </section>
 
   <!-- App Section -->
-<section id="app" class="app-section py-5 text-white">
-  <div class="container">
-    <div class="row align-items-center">
-      <!-- Mobile Device Frame (Left Side) -->
-      <div class="col-lg-6 mb-5 mb-lg-0 order-lg-1 order-2 text-center">
-        <div class="device-frame mx-auto position-relative floating" style="max-width: 300px;">
-          <!-- Device Outline -->
-          <div class="position-relative" style="border: 12px solid #222; border-radius: 40px; height: 600px; width: 300px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.3);">
-            <!-- Device Notch -->
-            <div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 50%; height: 25px; background: #222; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; z-index: 10;"></div>
-            <!-- App Screen Content -->
-            <div class="h-100" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-              <!-- App Header -->
-              <div class="d-flex justify-content-between align-items-center p-3" style="background: rgba(0,0,0,0.2);">
-                <span class="text-white fw-bold">Food Corner</span>
-                <i class="fas fa-search text-white"></i>
+  <section id="app" class="app-section py-5 text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Mobile Device Frame (Left Side) -->
+        <div class="col-lg-6 mb-5 mb-lg-0 order-lg-1 order-2 text-center">
+          <div class="device-frame mx-auto position-relative floating" style="max-width: 300px;">
+            <!-- Device Outline -->
+            <div class="position-relative"
+              style="border: 12px solid #222; border-radius: 40px; height: 600px; width: 300px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.3);">
+              <!-- Device Notch -->
+              <div
+                style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 50%; height: 25px; background: #222; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; z-index: 10;">
               </div>
-              
-              <!-- Featured Promotion -->
-              <div class="text-center p-4">
-                <div class="bg-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
-                  <i class="fas fa-utensils text-primary fa-2x"></i>
+              <!-- App Screen Content -->
+              <div class="h-100" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                <!-- App Header -->
+                <div class="d-flex justify-content-between align-items-center p-3" style="background: rgba(0,0,0,0.2);">
+                  <span class="text-white fw-bold">Food Corner</span>
+                  <i class="fas fa-search text-white"></i>
                 </div>
-                <h5 class="text-white mb-1">Special Offer!</h5>
-                <p class="text-white-50 small mb-3">Today only</p>
-                <div class="bg-white text-dark rounded-pill py-2 px-3 d-inline-block">
-                  <span class="fw-bold">50% OFF</span> All Burgers
+
+                <!-- Featured Promotion -->
+                <div class="text-center p-4">
+                  <div class="bg-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+                    style="width: 80px; height: 80px;">
+                    <i class="fas fa-utensils text-primary fa-2x"></i>
+                  </div>
+                  <h5 class="text-white mb-1">Special Offer!</h5>
+                  <p class="text-white-50 small mb-3">Today only</p>
+                  <div class="bg-white text-dark rounded-pill py-2 px-3 d-inline-block">
+                    <span class="fw-bold">50% OFF</span> All Burgers
+                  </div>
                 </div>
-              </div>
-              
-              <!-- Food Items -->
-              <div class="px-3">
-                <div class="bg-white rounded-3 p-3 mb-3 shadow-sm">
-                  <div class="d-flex">
-                    <div class="flex-shrink-0" style="width: 60px; height: 60px; background: #eee; border-radius: 10px; overflow: hidden;">
-                      <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" style="width: 100%; height: 100%; object-fit: cover;">
+
+                <!-- Food Items -->
+                <div class="px-3">
+                  <div class="bg-white rounded-3 p-3 mb-3 shadow-sm">
+                    <div class="d-flex">
+                      <div class="flex-shrink-0"
+                        style="width: 60px; height: 60px; background: #eee; border-radius: 10px; overflow: hidden;">
+                        <img
+                          src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                          style="width: 100%; height: 100%; object-fit: cover;">
+                      </div>
+                      <div class="flex-grow-1 ms-3">
+                        <h6 class="mb-0 text-dark">Mega Burger</h6>
+                        <small class="text-muted">Double patty with cheese</small>
+                        <div class="d-flex justify-content-between mt-1">
+                          <span class="text-dark fw-bold">$9.99</span>
+                          <button class="btn btn-sm btn-primary py-0 px-2">+</button>
+                        </div>
+                      </div>
                     </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-0 text-dark">Mega Burger</h6>
-                      <small class="text-muted">Double patty with cheese</small>
-                      <div class="d-flex justify-content-between mt-1">
-                        <span class="text-dark fw-bold">$9.99</span>
-                        <button class="btn btn-sm btn-primary py-0 px-2">+</button>
+                  </div>
+
+                  <div class="bg-white rounded-3 p-3 shadow-sm">
+                    <div class="d-flex">
+                      <div class="flex-shrink-0"
+                        style="width: 60px; height: 60px; background: #eee; border-radius: 10px; overflow: hidden;">
+                        <img
+                          src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                          style="width: 100%; height: 100%; object-fit: cover;">
+                      </div>
+                      <div class="flex-grow-1 ms-3">
+                        <h6 class="mb-0 text-dark">Pepperoni Pizza</h6>
+                        <small class="text-muted">12" with extra cheese</small>
+                        <div class="d-flex justify-content-between mt-1">
+                          <span class="text-dark fw-bold">$12.99</span>
+                          <button class="btn btn-sm btn-primary py-0 px-2">+</button>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                
-                <div class="bg-white rounded-3 p-3 shadow-sm">
-                  <div class="d-flex">
-                    <div class="flex-shrink-0" style="width: 60px; height: 60px; background: #eee; border-radius: 10px; overflow: hidden;">
-                      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" style="width: 100%; height: 100%; object-fit: cover;">
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-0 text-dark">Pepperoni Pizza</h6>
-                      <small class="text-muted">12" with extra cheese</small>
-                      <div class="d-flex justify-content-between mt-1">
-                        <span class="text-dark fw-bold">$12.99</span>
-                        <button class="btn btn-sm btn-primary py-0 px-2">+</button>
-                      </div>
-                    </div>
-                  </div>
+
+                <!-- Bottom Navigation -->
+                <div class="position-absolute bottom-0 start-0 end-0 d-flex justify-content-around p-3"
+                  style="background: rgba(0,0,0,0.1);">
+                  <i class="fas fa-home text-white"></i>
+                  <i class="fas fa-search text-white-50"></i>
+                  <i class="fas fa-shopping-cart text-white-50"></i>
+                  <i class="fas fa-user text-white-50"></i>
                 </div>
               </div>
-              
-              <!-- Bottom Navigation -->
-              <div class="position-absolute bottom-0 start-0 end-0 d-flex justify-content-around p-3" style="background: rgba(0,0,0,0.1);">
-                <i class="fas fa-home text-white"></i>
-                <i class="fas fa-search text-white-50"></i>
-                <i class="fas fa-shopping-cart text-white-50"></i>
-                <i class="fas fa-user text-white-50"></i>
-              </div>
             </div>
           </div>
         </div>
-      </div>
-      
-      <!-- App Content (Right Side) -->
-      <div class="col-lg-6 order-lg-2 order-1 mb-5 mb-lg-0">
-        <h2 class="display-5 fw-bold mb-4">Download Our <span class="text-warning">Mobile App</span></h2>
-        <p class="lead mb-4">Get exclusive app-only deals and order food with just a few taps!</p>
-        
-        <div class="row g-4 mb-4">
-          <div class="col-md-6">
-            <div class="d-flex align-items-center bg-white bg-opacity-10 p-3 rounded-3 h-100">
-              <div class="bg-white text-primary rounded-circle p-2 me-3 flex-shrink-0">
-                <i class="fas fa-bolt fa-lg"></i>
+
+        <!-- App Content (Right Side) -->
+        <div class="col-lg-6 order-lg-2 order-1 mb-5 mb-lg-0">
+          <h2 class="display-5 fw-bold mb-4">Download Our <span class="text-warning">Mobile App</span></h2>
+          <p class="lead mb-4">Get exclusive app-only deals and order food with just a few taps!</p>
+
+          <div class="row g-4 mb-4">
+            <div class="col-md-6">
+              <div class="d-flex align-items-center bg-white bg-opacity-10 p-3 rounded-3 h-100">
+                <div class="bg-white text-primary rounded-circle p-2 me-3 flex-shrink-0">
+                  <i class="fas fa-bolt fa-lg"></i>
+                </div>
+                <div>
+                  <h6 class="mb-1">Lightning Fast</h6>
+                  <p class="small mb-0 text-white-50">Order food in under 30 seconds</p>
+                </div>
               </div>
-              <div>
-                <h6 class="mb-1">Lightning Fast</h6>
-                <p class="small mb-0 text-white-50">Order food in under 30 seconds</p>
+            </div>
+
+            <div class="col-md-6">
+              <div class="d-flex align-items-center bg-white bg-opacity-10 p-3 rounded-3 h-100">
+                <div class="bg-white text-primary rounded-circle p-2 me-3 flex-shrink-0">
+                  <i class="fas fa-gift fa-lg"></i>
+                </div>
+                <div>
+                  <h6 class="mb-1">Exclusive Deals</h6>
+                  <p class="small mb-0 text-white-50">App-only discounts & offers</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="d-flex align-items-center bg-white bg-opacity-10 p-3 rounded-3 h-100">
+                <div class="bg-white text-primary rounded-circle p-2 me-3 flex-shrink-0">
+                  <i class="fas fa-coins fa-lg"></i>
+                </div>
+                <div>
+                  <h6 class="mb-1">Loyalty Rewards</h6>
+                  <p class="small mb-0 text-white-50">Earn points with every order</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="d-flex align-items-center bg-white bg-opacity-10 p-3 rounded-3 h-100">
+                <div class="bg-white text-primary rounded-circle p-2 me-3 flex-shrink-0">
+                  <i class="fas fa-bell fa-lg"></i>
+                </div>
+                <div>
+                  <h6 class="mb-1">Real-Time Alerts</h6>
+                  <p class="small mb-0 text-white-50">Order status notifications</p>
+                </div>
               </div>
             </div>
           </div>
-          
-          <div class="col-md-6">
-            <div class="d-flex align-items-center bg-white bg-opacity-10 p-3 rounded-3 h-100">
-              <div class="bg-white text-primary rounded-circle p-2 me-3 flex-shrink-0">
-                <i class="fas fa-gift fa-lg"></i>
+
+          <div class="d-flex flex-wrap gap-3">
+            <a href="https://play.google.com/store/apps/details?id=com.foodcorner.app"
+              class="btn btn-light btn-lg px-4 py-3 d-flex align-items-center">
+              <i class="fab fa-google-play fa-2x me-2"></i>
+              <div class="text-start">
+                <small class="d-block">Get it on</small>
+                <span class="fw-bold">Google Play</span>
               </div>
-              <div>
-                <h6 class="mb-1">Exclusive Deals</h6>
-                <p class="small mb-0 text-white-50">App-only discounts & offers</p>
+            </a>
+
+            <a href="#" class="btn btn-outline-light btn-lg px-4 py-3 d-flex align-items-center">
+              <i class="fab fa-apple fa-2x me-2"></i>
+              <div class="text-start">
+                <small class="d-block">Download on the</small>
+                <span class="fw-bold">App Store</span>
               </div>
-            </div>
+            </a>
           </div>
-          
-          <div class="col-md-6">
-            <div class="d-flex align-items-center bg-white bg-opacity-10 p-3 rounded-3 h-100">
-              <div class="bg-white text-primary rounded-circle p-2 me-3 flex-shrink-0">
-                <i class="fas fa-coins fa-lg"></i>
-              </div>
-              <div>
-                <h6 class="mb-1">Loyalty Rewards</h6>
-                <p class="small mb-0 text-white-50">Earn points with every order</p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6">
-            <div class="d-flex align-items-center bg-white bg-opacity-10 p-3 rounded-3 h-100">
-              <div class="bg-white text-primary rounded-circle p-2 me-3 flex-shrink-0">
-                <i class="fas fa-bell fa-lg"></i>
-              </div>
-              <div>
-                <h6 class="mb-1">Real-Time Alerts</h6>
-                <p class="small mb-0 text-white-50">Order status notifications</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="d-flex flex-wrap gap-3">
-          <a href="https://play.google.com/store/apps/details?id=com.foodcorner.app" 
-             class="btn btn-light btn-lg px-4 py-3 d-flex align-items-center">
-            <i class="fab fa-google-play fa-2x me-2"></i>
-            <div class="text-start">
-              <small class="d-block">Get it on</small>
-              <span class="fw-bold">Google Play</span>
-            </div>
-          </a>
-          
-          <a href="#" class="btn btn-outline-light btn-lg px-4 py-3 d-flex align-items-center">
-            <i class="fab fa-apple fa-2x me-2"></i>
-            <div class="text-start">
-              <small class="d-block">Download on the</small>
-              <span class="fw-bold">App Store</span>
-            </div>
-          </a>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<style>
-  .app-promo-section {
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-    color: white;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  /* Floating Animation */
-  @keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0px); }
-  }
-  
-  /* App Mockup Styling */
-  .app-mockup-wrapper {
-    perspective: 1000px;
-  }
-  
-  .device-frame {
-    transform: rotateY(-10deg);
-    transition: transform 0.5s ease;
-  }
-  
-  .app-mockup-wrapper:hover .device-frame {
-    transform: rotateY(0deg);
-  }
-  
-  .food-item-img {
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  /* Feature Cards */
-  .feature-card {
-    transition: all 0.3s ease;
-  }
-  
-  .feature-card:hover {
-    transform: translateY(-5px);
-    background: rgba(255,255,255,0.15) !important;
-    border-color: rgba(255,255,255,0.3) !important;
-  }
-  
-  /* Download Buttons */
-  .btn-download {
-    display: flex;
-    align-items: center;
-    padding: 12px 20px;
-    border-radius: 12px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-  }
-  
-  .btn-google-play {
-    background: #1a1a1a;
-    color: white;
-  }
-  
-  .btn-app-store {
-    background: white;
-    color: #1a1a1a;
-  }
-  
-  .btn-download:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.2) !important;
-  }
-  
-  .btn-icon {
-    font-size: 1.8rem;
-    margin-right: 12px;
-  }
-  
-  .btn-text {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.2;
-  }
-  
-  .btn-text span {
-    font-size: 0.8rem;
-  }
-  
-  .btn-text strong {
-    font-size: 1.2rem;
-  }
-  
-  /* Trust Badges */
-  .trust-badge {
-    background: rgba(255,255,255,0.1);
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    display: inline-flex;
-    align-items: center;
-  }
-</style>
+  <style>
+    .app-promo-section {
+      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+      color: white;
+      position: relative;
+      overflow: hidden;
+    }
 
-<script>
-  // Simple animation to make the app mockup interactive
-  document.querySelectorAll('.food-item-card').forEach((card, index) => {
-    card.style.transitionDelay = `${index * 0.1}s`;
-    card.addEventListener('mouseenter', () => {
-      card.style.transform = 'translateY(-5px)';
+    /* Floating Animation */
+    @keyframes float {
+      0% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(-20px);
+      }
+
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
+    /* App Mockup Styling */
+    .app-mockup-wrapper {
+      perspective: 1000px;
+    }
+
+    .device-frame {
+      transform: rotateY(-10deg);
+      transition: transform 0.5s ease;
+    }
+
+    .app-mockup-wrapper:hover .device-frame {
+      transform: rotateY(0deg);
+    }
+
+    .food-item-img {
+      width: 60px;
+      height: 60px;
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Feature Cards */
+    .feature-card {
+      transition: all 0.3s ease;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.15) !important;
+      border-color: rgba(255, 255, 255, 0.3) !important;
+    }
+
+    /* Download Buttons */
+    .btn-download {
+      display: flex;
+      align-items: center;
+      padding: 12px 20px;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .btn-google-play {
+      background: #1a1a1a;
+      color: white;
+    }
+
+    .btn-app-store {
+      background: white;
+      color: #1a1a1a;
+    }
+
+    .btn-download:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2) !important;
+    }
+
+    .btn-icon {
+      font-size: 1.8rem;
+      margin-right: 12px;
+    }
+
+    .btn-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+    }
+
+    .btn-text span {
+      font-size: 0.8rem;
+    }
+
+    .btn-text strong {
+      font-size: 1.2rem;
+    }
+
+    /* Trust Badges */
+    .trust-badge {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+    }
+  </style>
+
+  <script>
+    // Simple animation to make the app mockup interactive
+    document.querySelectorAll('.food-item-card').forEach((card, index) => {
+      card.style.transitionDelay = `${index * 0.1}s`;
+      card.addEventListener('mouseenter', () => {
+        card.style.transform = 'translateY(-5px)';
+      });
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = 'translateY(0)';
+      });
     });
-    card.addEventListener('mouseleave', () => {
-      card.style.transform = 'translateY(0)';
-    });
-  });
-</script>
+  </script>
 
   <!-- Video Section -->
   <section id="video" class="py-5 bg-white">
@@ -555,15 +530,14 @@
         <h2 class="display-5 fw-bold">🏨 Our <span class="text-primary">Hotel</span> Experience</h2>
         <p class="text-muted">Discover our premium food services and hospitality</p>
       </div>
-      
+
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="video-wrapper">
             <!-- Replace with your YouTube embed code -->
             <div class="ratio ratio-16x9">
-              <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
-                      title="Hotel Management Video" 
-                      allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="Hotel Management Video"
+                allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -572,62 +546,35 @@
   </section>
 
   <!-- Contact Section -->
-<section id="contact" class="py-5 bg-light">
+  <section id="contact" class="py-5 bg-light">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6 text-center">
-                <h2 class="display-5 fw-bold mb-4">Stay Connected</h2>
-                <p class="lead mb-5">Follow us for daily updates and special offers!</p>
-                <div class="d-flex justify-content-center gap-4 mb-5">
-                    <a href="#" class="social-icon text-white bg-primary">
-                        <i class="fab fa-facebook-f fa-lg"></i>
-                    </a>
-                    <a href="#" class="social-icon text-white bg-danger">
-                        <i class="fab fa-instagram fa-lg"></i>
-                    </a>
-                    <a href="#" class="social-icon text-white bg-info">
-                        <i class="fab fa-twitter fa-lg"></i>
-                    </a>
-                    <a href="#" class="social-icon text-white bg-danger">
-                        <i class="fab fa-youtube fa-lg"></i>
-                    </a>
-                </div>
-            </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h2 class="display-5 fw-bold mb-4">Stay Connected</h2>
+          <p class="lead mb-5">Follow us for daily updates and special offers!</p>
+          <div class="d-flex justify-content-center gap-4 mb-5">
+            <a href="#" class="social-icon text-white bg-primary">
+              <i class="fab fa-facebook-f fa-lg"></i>
+            </a>
+            <a href="#" class="social-icon text-white bg-danger">
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>
+            <a href="#" class="social-icon text-white bg-info">
+              <i class="fab fa-twitter fa-lg"></i>
+            </a>
+            <a href="#" class="social-icon text-white bg-danger">
+              <i class="fab fa-youtube fa-lg"></i>
+            </a>
+          </div>
         </div>
+      </div>
     </div>
-</section>
+  </section>
 
   <!-- Footer -->
-  <footer class="footer text-white py-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mb-4 mb-md-0">
-          <h5><i class="fas fa-utensils me-2"></i>Food Corner</h5>
-          <p>Delicious food, unforgettable experiences.</p>
-        </div>
-        <div class="col-md-4 mb-4 mb-md-0">
-          <h5>Quick Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Menu</a></li>
-            <li><a href="#" class="text-white">About Us</a></li>
-            <li><a href="#" class="text-white">Careers</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h5>Contact</h5>
-          <ul class="list-unstyled">
-            <li><i class="fas fa-map-marker-alt me-2"></i> 123 Food Street, City</li>
-            <li><i class="fas fa-phone me-2"></i> (123) 456-7890</li>
-            <li><i class="fas fa-envelope me-2"></i> info@foodcorner.com</li>
-          </ul>
-        </div>
-      </div>
-      <hr class="my-4">
-      <div class="text-center">
-        <p class="mb-0">&copy; 2023 Food Corner. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
+  <?php
+  include "footer.php";
+  ?>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -641,9 +588,9 @@
         });
       });
     });
-    
+
     // Navbar background change on scroll
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
       const navbar = document.querySelector('.navbar');
       if (window.scrollY > 50) {
         navbar.classList.add('bg-dark', 'shadow');
@@ -653,4 +600,5 @@
     });
   </script>
 </body>
+
 </html>

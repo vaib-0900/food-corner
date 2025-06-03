@@ -1,3 +1,4 @@
+<?php include("header.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -156,8 +157,6 @@
 </head>
 <body>
 
-<!-- Navigation -->
-<?php include('header.php'); ?>
 
 <!-- Hero Section -->
 <section class="menu-hero text-white">
