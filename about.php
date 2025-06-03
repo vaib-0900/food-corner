@@ -12,7 +12,7 @@ include('header.php');
     <style>
         .hero {
             background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
-            height: 60vh;
+            height: 40vh;
             display: flex;
             align-items: center;
             justify-content: center;
