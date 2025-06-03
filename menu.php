@@ -196,7 +196,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
                             <span class="menu-badge">Chef's Special</span>
-                            <img src="image//food corner.jpg" style=" width: 500px; height:200px">
+                            <img src="images/food corner.jpg" style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Paneer Tikka</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -219,7 +219,7 @@
                     <!-- Item 2 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="image//butter chikan.jpg"style=" width: 500px; height:200px">
+                            <img src="images/butter chikan.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Butter Chicken</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -242,7 +242,7 @@
                     <!-- Item 3 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="image//Dal Makhani.jpg"style=" width: 500px; height:200px">
+                            <img src="images/Dal Makhani.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Dal Makhani</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -271,7 +271,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
                             <span class="menu-badge">Bestseller</span>
-                            <img src="image//food corner.jpg" style=" width: 500px; height:200px">
+                            <img src="images/food corner.jpg" style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Paneer Tikka</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -294,7 +294,7 @@
                     <!-- Starter 2 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="image//65.jpg"style=" width: 500px; height:200px">
+                            <img src="images/chicken-65 vaib.png"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Chicken 65</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -345,7 +345,7 @@
                     <!-- Main Course 1 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="image//butter chikan.jpg"style=" width: 500px; height:200px">
+                            <img src="images/butter chikan.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Butter Chicken</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -369,7 +369,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
                             <span class="menu-badge">Chef's Special</span>
-                            <img src="image//Dal Makhani.jpg"style=" width: 500px; height:200px">
+                            <img src="images/Dal Makhani.jpg"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Dal Makhani</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -392,7 +392,7 @@
                     <!-- Main Course 3 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="image//palak.jpg"style=" width: 500px; height:200px">
+                            <img src="images/palak-paneer-with-paneer-cheese-.png"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Palak Paneer</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -420,7 +420,7 @@
                     <!-- Dessert 1 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="image//gulab jamun.jpg"style=" width: 500px; height:200px">
+                            <img src="images/ai-generated-gulab-jamun.webp" class="menu-img" alt="Gulab Jamun">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Gulab Jamun</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -443,7 +443,7 @@
                     <!-- Dessert 2 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="image//Rasmalai.jpg"style=" width: 500px; height:200px">
+                            <img src="images/ras-malai-indian.webp" class="menu-img"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Rasmalai</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -467,7 +467,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
                             <span class="menu-badge">Seasonal</span>
-                            <img src="image//Gajar Ka Halwa.jpg"style=" width: 500px; height:200px">
+                            <img src="images/ai-generated-gajar-halwa.webp" class="menu-img"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Gajar Ka Halwa</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -496,7 +496,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
                             <span class="menu-badge">New</span>
-                            <img src="image//Mango Lassi.jpg"style=" width: 500px; height:200px">
+                            <img src="images/Mango-Lassi.png"class="menu-img"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Mango Lassi</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -519,7 +519,7 @@
                     <!-- Beverage 2 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="image//masala Chai.jpg"style=" width: 500px; height:200px">
+                            <img src="images/Tea-Masala-Special1.png"class="menu-img"style=" width: 500px; height:200px">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Masala Chai</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -542,7 +542,7 @@
                     <!-- Beverage 3 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="menu-card">
-                            <img src="image//Nimbu Pani.jpg"style=" width: 490px; height:200px">
+                            <img src="images/ai-generated-fruity-lemon.webp" class="menu-img" alt="Nimbu Pani">
                             <div class="menu-card-body">
                                 <h5 class="menu-title">Nimbu Pani</h5>
                                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -586,7 +586,7 @@
                     card.style.opacity = '1';
                     card.style.transform = 'translateY(0)';
                 }
-            });
+            }); 
         };
         
         // Set initial state
