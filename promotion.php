@@ -14,6 +14,12 @@ include "header.php";
   <!-- Animate.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <style>
+    /* :root {
+      --primary: #ff6b6b;
+      --secondary: #ffa502;
+      --dark: #2f3542;
+      --light: #f1f2f6;
+    }
     
     body {
       font-family: 'Poppins', sans-serif;
@@ -21,7 +27,7 @@ include "header.php";
     }
     
     /* Custom Navbar */
-    .navbar {
+    /* .navbar {
       background: rgba(47, 53, 66, 0.9) !important;
       backdrop-filter: blur(10px);
     }
@@ -29,9 +35,9 @@ include "header.php";
     .navbar-brand {
       font-weight: 700;
       font-size: 1.8rem;
-    }
+    } */
     
-    .nav-link {
+    /* .nav-link {
       font-weight: 500;
       position: relative;
     }
@@ -50,7 +56,7 @@ include "header.php";
     .nav-link:hover::after {
       width: 100%;
     }
-    
+     */ 
     /* Hero Section */
     .hero {
       background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
