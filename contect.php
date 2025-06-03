@@ -2,20 +2,25 @@
 session_start();
 include "header.php";
 ?>
- 
+
 <!-- Contact Start -->
 <div class="container-fluid py-5 bg-light">
+    <h1 class="text-warning text-center mb-4">Contact Us</h1>
+
     <div class="container py-5">
         <div class="row g-5 align-items-center">
             <!-- Contact Form -->
             <div class="col-lg-6">
                 <div class="p-5 bg-white rounded shadow">
-                    <h1 class="text-warning text-center mb-4">Contact Us</h1>
                     <form action="" method="post">
-                        <input type="text" class="form-control border-0 py-3 mb-3 shadow-sm" placeholder="Your Name" name="contact_name" required>
-                        <input type="text" class="form-control border-0 py-3 mb-3 shadow-sm" placeholder="Subject" name="contact_subject" required>
-                        <input type="email" class="form-control border-0 py-3 mb-3 shadow-sm" placeholder="Your Email" name="contact_email" required>
-                        <textarea class="form-control border-0 py-3 mb-3 shadow-sm" rows="5" placeholder="Your Message" name="contact_message" required></textarea>
+                        <input type="text" class="form-control border-0 py-3 mb-3 shadow-sm" placeholder="Your Name"
+                            name="contact_name" required>
+                        <input type="text" class="form-control border-0 py-3 mb-3 shadow-sm" placeholder="Subject"
+                            name="contact_subject" required>
+                        <input type="email" class="form-control border-0 py-3 mb-3 shadow-sm" placeholder="Your Email"
+                            name="contact_email" required>
+                        <textarea class="form-control border-0 py-3 mb-3 shadow-sm" rows="5" placeholder="Your Message"
+                            name="contact_message" required></textarea>
                         <button class="btn btn-warning w-100 py-3 shadow" type="submit">Send Message</button>
                     </form>
                 </div>
