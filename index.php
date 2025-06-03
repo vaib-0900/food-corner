@@ -125,7 +125,7 @@ include "header.php";
                                     </div>
                                     <p class="text-muted">Tender chicken in aromatic curry sauce with traditional spices and basmati rice.</p>
                                     <div class="d-flex justify-content-between align-items-center mt-3">
-                                        <span class="fw-bold text-dark">$16.99</span>
+                                        <span class="fw-bold text-dark">₹699</span>
                                     </div>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@ include "header.php";
                                     </div>
                                     <p class="text-muted">Golden-fried with secret spices, served with coleslaw and honey mustard.</p>
                                     <div class="d-flex justify-content-between align-items-center mt-3">
-                                        <span class="fw-bold text-dark">$14.99</span>
+                                        <span class="fw-bold text-dark">₹599</span>
                                     </div>
                                 </div>
                             </div>
@@ -165,7 +165,7 @@ include "header.php";
                                     </div>
                                     <p class="text-muted">Herb-marinated chicken breast with roasted vegetables and mashed potatoes.</p>
                                     <div class="d-flex justify-content-between align-items-center mt-3">
-                                        <span class="fw-bold text-dark">$18.99</span>
+                                        <span class="fw-bold text-dark">₹749</span>
                                     </div>
                                 </div>
                             </div>
@@ -190,7 +190,7 @@ include "header.php";
                                     </div>
                                     <p class="text-muted">Tandoori chicken in creamy tomato sauce with fragrant spices.</p>
                                     <div class="d-flex justify-content-between align-items-center mt-3">
-                                        <span class="fw-bold text-dark">$17.99</span>
+                                        <span class="fw-bold text-dark">₹649</span>
                                     </div>
                                 </div>
                             </div>
@@ -210,7 +210,7 @@ include "header.php";
                                     </div>
                                     <p class="text-muted">Juicy chicken with lemon-herb marinade and seasonal vegetables.</p>
                                     <div class="d-flex justify-content-between align-items-center mt-3">
-                                        <span class="fw-bold text-dark">$15.99</span>
+                                        <span class="fw-bold text-dark">₹599</span>
                                     </div>
                                 </div>
                             </div>
@@ -230,7 +230,7 @@ include "header.php";
                                     </div>
                                     <p class="text-muted">Breaded chicken topped with marinara and melted mozzarella.</p>
                                     <div class="d-flex justify-content-between align-items-center mt-3">
-                                        <span class="fw-bold text-dark">$16.99</span>
+                                        <span class="fw-bold text-dark">₹799</span>
                                     </div>
                                 </div>
                             </div>
@@ -255,11 +255,12 @@ include "header.php";
                                     </div>
                                     <p class="text-muted">Crispy wings glazed with our signature BBQ sauce, served with ranch.</p>
                                     <div class="d-flex justify-content-between align-items-center mt-3">
-                                        <span class="fw-bold text-dark">$13.99</span>
+                                        <span class="fw-bold text-dark">₹549</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
 
                         <!-- Chicken Shawarma -->
                         <div class="col-md-4">
@@ -275,7 +276,7 @@ include "header.php";
                                     </div>
                                     <p class="text-muted">Marinated chicken with garlic sauce, pickles, and warm pita bread.</p>
                                     <div class="d-flex justify-content-between align-items-center mt-3">
-                                        <span class="fw-bold text-dark">$15.99</span>
+                                        <span class="fw-bold text-dark">₹599</span>
                                     </div>
                                 </div>
                             </div>
@@ -295,7 +296,7 @@ include "header.php";
                                     </div>
                                     <p class="text-muted">Fettuccine with grilled chicken in rich Alfredo sauce.</p>
                                     <div class="d-flex justify-content-between align-items-center mt-3">
-                                        <span class="fw-bold text-dark">$17.99</span>
+                                        <span class="fw-bold text-dark">₹799</span>
                                     </div>
                                 </div>
                             </div>
