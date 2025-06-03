@@ -157,7 +157,6 @@
 </head>
 <body>
 
-<!-- Navigation -->
 
 <!-- Hero Section -->
 <section class="menu-hero text-white">
