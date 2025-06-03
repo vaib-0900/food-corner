@@ -10,15 +10,13 @@ include('header.php');
     <title>Food Corner Specials</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .hero {
+       .hero-section {
             background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/banner.png');
-            height: 60vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            background-size: cover;
+            background-position: center;
+            min-height: 60vh;
         }
+        
 
         .card-img-top {
             height: 220px;
