@@ -18,7 +18,6 @@ include "header.php";
     /* Hero Section */
     .hero {
       background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/banner.png');
-
       background-size: cover;
       background-position: center;
       min-height: 80vh;
@@ -205,7 +204,7 @@ include "header.php";
               class="card-img-top" alt="Pizza Deal">
             <div class="card-body">
               <h5 class="card-title">Family Pizza Fest</h5>
-              <p class="card-text">Large pizza + 4 drinks for just $19.99. Weekend special!</p>
+              <p class="card-text">Large pizza + 4 drinks for just ₹75. Weekend special!</p>
               <div class="d-flex justify-content-between align-items-center">
                 <small class="text-muted"><i class="far fa-clock me-1"></i>Weekends only</small>
               </div>
