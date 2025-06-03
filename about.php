@@ -33,11 +33,9 @@ include('header.php');
 
 <body>
     <!-- Hero Section -->
-    <section class="hero text-center mb-5">
-        <div class="container">
-            <h1 class="display-4 fw-bold">About Us</h1>
-            
-            <a href="#specials" class="btn btn-warning btn-lg">Explore Now</a>
+     <section class="hero-section bg-dark text-white d-flex align-items-center">
+        <div class="container text-center py-5">
+            <h1 class="display-3 fw-bold mb-3"> <span class="text-warning">About Us</span></h1>
         </div>
     </section>
     <div class="container my-5">
