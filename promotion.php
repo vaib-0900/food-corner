@@ -1,3 +1,6 @@
+<?php
+include "header.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -598,36 +601,9 @@
 </section>
 
   <!-- Footer -->
-  <footer class="footer text-white py-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mb-4 mb-md-0">
-          <h5><i class="fas fa-utensils me-2"></i>Food Corner</h5>
-          <p>Delicious food, unforgettable experiences.</p>
-        </div>
-        <div class="col-md-4 mb-4 mb-md-0">
-          <h5>Quick Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Menu</a></li>
-            <li><a href="#" class="text-white">About Us</a></li>
-            <li><a href="#" class="text-white">Careers</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h5>Contact</h5>
-          <ul class="list-unstyled">
-            <li><i class="fas fa-map-marker-alt me-2"></i> 123 Food Street, City</li>
-            <li><i class="fas fa-phone me-2"></i> (123) 456-7890</li>
-            <li><i class="fas fa-envelope me-2"></i> info@foodcorner.com</li>
-          </ul>
-        </div>
-      </div>
-      <hr class="my-4">
-      <div class="text-center">
-        <p class="mb-0">&copy; 2023 Food Corner. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
+  <?php
+  include "footer.php";
+  ?>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
